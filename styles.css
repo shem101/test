@@ -1,0 +1,135 @@
+#nav-bar{
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+height: 40px;
+padding-left: 30pxs;
+}
+.navbar-nav{
+    padding-right: 0;
+    float: left;
+    text-align: left;
+}
+.navbar-nav a {
+    float: right;
+    text-align: left;
+}
+.navbanav-item{
+    float: left;
+}
+.navbar-nav :hover{
+    background-color: blue;
+    animation: none;
+    transition-delay: 3ms;
+}
+.navbar{
+    background-color: blanchedalmond;
+    position: sticky;
+}
+
+.navbar-nav :hover{
+    color: burlywood;
+    transition-delay: 0ms;
+}
+.slider{
+    width: auto;
+
+}
+.carousel-caption{
+   top: 50%;
+   transform: translate(-50%);
+   bottom: initial!important;
+   text-transform: uppercase;
+   color: black;
+   text-justify: auto;
+   text-decoration: black;
+}
+.carousel-caption h5{
+    color: black;
+    font-size: 42px;
+}
+.carousel-inner{
+    height: 100%;
+}
+/*-----about----*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.about-content{
+    padding-top: 20px;
+
+}
+.skills p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+#learned{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: chartreuse !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#lerned h1{
+    text-align: center;
+}
+.learned{
+    margin-top: 40px;
+    display: inline-flexbox;
+    float: inline-start;
+    text-align: center;
+}
+.learned .col-md-3 :hover{
+    background:black;
+    transition: 0.7s;
+}
+#details{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 38px ;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+#intouch{
+    background-color: thistle;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: tomato;
+}
+.contact-form{
+    padding: 20px;
+}
+ ::placeholder{
+    color: blue;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+#footer{
+    background:white;
+    color:black;
+    padding: 12px;
+}
